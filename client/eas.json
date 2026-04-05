@@ -16,12 +16,14 @@
         "buildType": "apk"
       },
       "env": {
-        "EXPO_PUBLIC_BACKEND_BASE_URL": "https://ai-elderly-app-production.up.railway.app"
+        "EXPO_PUBLIC_BACKEND_BASE_URL": "https://ai-elderly-app-production.up.railway.app",
+        "EAS_BUILD_PNPM_VERSION": "9.0.0"
       }
     },
     "production": {
       "env": {
-        "EXPO_PUBLIC_BACKEND_BASE_URL": "https://ai-elderly-app-production.up.railway.app"
+        "EXPO_PUBLIC_BACKEND_BASE_URL": "https://ai-elderly-app-production.up.railway.app",
+        "EAS_BUILD_PNPM_VERSION": "9.0.0"
       }
     }
   },
