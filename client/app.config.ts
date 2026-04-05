@@ -134,7 +134,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     },
     "extra": {
       "eas": {
-        "projectId": "ai-elderly-app"
+        "projectId": "88c82d96-fc00-431d-878d-01a35ed943e6"
       }
     }
   }
