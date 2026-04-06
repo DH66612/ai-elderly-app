@@ -307,8 +307,6 @@ const CITY_NAME_MAP: Record<string, string> = {
   'lishui': '丽水',
   'zhoushan': '舟山',
   'quzhou': '衢州',
-  'taizhou': '台州', // 浙江/江苏都有台州
-  
   // 山东省
   'jinan': '济南',
   'qingdao': '青岛',
@@ -371,7 +369,6 @@ const CITY_NAME_MAP: Record<string, string> = {
   'ezhou': '鄂州',
   'huanggang': '黄冈',
   'suizhou': '随州',
-  'xianning': '咸宁',
   
   // 湖南省
   'changsha': '长沙',
@@ -494,8 +491,8 @@ const CITY_NAME_MAP: Record<string, string> = {
   'yingtan': '鹰潭',
   'ganzhou': '赣州',
   'jian': '吉安',
-  'yichun': '宜春',
-  'fuzhou': '抚州',
+  'yichun-jx': '宜春',
+  'fuzhou-jx': '抚州',
   'shangrao': '上饶',
   
   // 安徽省
@@ -510,7 +507,7 @@ const CITY_NAME_MAP: Record<string, string> = {
   'huangshan': '黄山',
   'chuzhou': '滁州',
   'fuyang': '阜阳',
-  'suzhou': '宿州',
+  'suzhou-ah': '宿州',
   'luan': '六安',
   'bozhou': '亳州',
   'chizhou': '池州',
@@ -551,7 +548,7 @@ const CITY_NAME_MAP: Record<string, string> = {
   'fangchenggang': '防城港',
   'qinzhou': '钦州',
   'guigang': '贵港',
-  'yulin': '玉林',
+  'yulin-gx': '玉林',
   'baise': '百色',
   'hezhou': '贺州',
   'hechi': '河池',
