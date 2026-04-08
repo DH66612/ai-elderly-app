@@ -1,0 +1,16 @@
+[build]
+builder = "NIXPACKS"
+buildCommand = """
+  apt-get update && apt-get install -y ffmpeg python3 python3-pip libgl1 libglu1-mesa libegl1 libgles2 && \
+  pip3 install flask flask-cors opencv-python-headless mediapipe && \
+  pnpm install && \
+  pnpm run build
+"""
+
+[deploy]
+startCommand = "NODE_ENV=production node dist/index.js"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
+
+[deploy.environment]
+NODE_ENV = "production"

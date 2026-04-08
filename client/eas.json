@@ -1,0 +1,35 @@
+{
+  "cli": {
+    "version": ">= 10.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_BACKEND_BASE_URL": "https://ai-elderly-app-production.up.railway.app"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_BACKEND_BASE_URL": "https://ai-elderly-app-production.up.railway.app",
+        "EAS_BUILD_PNPM_VERSION": "9.0.0",
+        "EAS_NO_FROZEN_LOCKFILE": "1"
+      }
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_BACKEND_BASE_URL": "https://ai-elderly-app-production.up.railway.app",
+        "EAS_BUILD_PNPM_VERSION": "9.0.0",
+        "EAS_NO_FROZEN_LOCKFILE": "1"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
